@@ -7,3 +7,29 @@ body{
 ul li{
     margin-bottom: 12px;
 }
+
+h3{
+    margin-top: 96px;
+}
+
+nav{
+    margin-bottom: 48px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+.btn:hover{
+    background-color: aqua;
+}
+
+.btn--nav:not(:first-of-type){
+    margin-left: 24px;
+}
